@@ -59,7 +59,7 @@ RUN pip install lifelines==0.25.11
 RUN pip install timm==0.3.2
 RUN pip install keras-retinanet==1.0.0
 RUN python -m pip install histomicstk --find-links https://girder.github.io/large_image_wheels
-RUN pip install luminoth ipympl pysurvival missingpy pyinform pingouin pyAgrum missingno autoimpute networkx community yellowbrick factor_analyzer hdbscan pyitlib
+RUN pip install tqdm luminoth ipympl pysurvival missingpy pyinform pingouin pyAgrum missingno autoimpute networkx community yellowbrick factor_analyzer hdbscan pyitlib
 #RUN pip install ipympl
 #RUN pip install pysurvival
 #RUN pip install missingpy
